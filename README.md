@@ -20,5 +20,5 @@ A scheduling program to assign team members practice times that work best with t
 
 # Todo
 * Fix corner cases
-* Make level names more dynamic
+* Make variables more dynamic
 * Minimize number of people "Not Sorted"
