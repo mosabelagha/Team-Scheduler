@@ -16,9 +16,10 @@ A scheduling program to assign team members practice times that work best with t
 2. Export to a CSV file
 3. Open Scheduler.jar
 4. Click the button when you're ready
-5. Open "Results.csv" to see the results
+5. In the 'output' folder there are multiple results
+   * Open 'Recommended.csv' to see the best results
+   * The other files are different schedules that you can choose
 
 # Todo
 * Fix corner cases
 * Make variables more dynamic
-* Minimize number of people "Not Sorted"
