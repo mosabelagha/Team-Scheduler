@@ -9,6 +9,7 @@ repositories {
 
 dependencies {
 	compile 'com.opencsv:opencsv:3.1'
+	compile 'com.jgoodies:forms:1.2.1'
 }
 
 jar {
@@ -20,4 +21,27 @@ jar {
 
 jar {
 	from configurations.compile.collect { zipTree(it) }  
+}
+
+task copyFolder(type: Copy) {
+	
+	def outfolder = file("$buildDir/libs/output") 
+	outfolder.mkdirs()
+
+	def sourceDir = files("$buildDir/libs")
+	def releaseDir = file("$rootDir/RELEASE")
+
+	releaseDir.mkdirs()
+
+	from sourceDir
+	into releaseDir
+}
+
+task copyDocs(type: Copy) {
+	def releaseDir = file("$rootDir/RELEASE")
+
+	from '$rootDir'
+	into releaseDir
+	
+	include '**/*.xlsx'
 }
