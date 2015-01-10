@@ -1,5 +1,6 @@
 # Team Practice Scheduler
 ####Created by: Mosab Elagha
+####Version 1.0
 A scheduling program to assign team members practice times that work best with their preferences and availability
 
 ## Directions for use
@@ -26,7 +27,7 @@ A scheduling program to assign team members practice times that work best with t
    * The other files are different schedules that you can choose from, but are not necessarily the most optimal
 
 ##If you have any suggestions, please let me know!
-**Note**: *I created this to be used with the Excel file in order to make it easy to paste data into the program. I envision this program being used after a survey sent out to team players (a google doc) asks what times work best for them. The data would be stored in spreadsheet anyways, and so copy and pasting the data would make the whole process go quickly, without the person making the schedule needing to manually input data. *
+**Note**: *I created this to be used with the Excel file in order to make it easy to paste data into the program. I envision this program being used after a survey sent out to team players (a google doc) asks what times work best for them. The data would be stored in spreadsheet anyways, and so copy and pasting the data would make the whole process go quickly, without the person making the schedule needing to manually input data.*
 
 ------
 
@@ -55,7 +56,7 @@ I recommend using the custom command I created for this project
     gradle release
 This will create a folder 'RELEASE' in the same directory as the build.gradle file and that folder will have all the files that are needed.
 
-Additionally, a ZIP file with all the files ready for release is generated.
+Additionally, a ZIP file with all the files ready for release is generated. (You'll need to run the command again to do this. Small bug, not sure how to fix)
 
 #####Other option
 You can also run 
@@ -66,4 +67,5 @@ in order to run the project. This will create the .jar file in 'build/libs' but 
 # Todo
 * Fix corner cases
 * Make variables more dynamic (number of players per slot, level names, number of levels, etc.)
+* Make build.gradle better
 * [Low Priority] Have this all be self contained (no excel/source file)

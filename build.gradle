@@ -48,7 +48,7 @@ task copyDocs(type: Copy) {
 	from rootDir
 	into releaseDir
 
-	include '*.xlsx', '*.md'
+	include '*.xlsx', 'README.pdf'
 }
 
 task createZip(type: Zip) {
