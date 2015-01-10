@@ -1,2 +1,13 @@
-/bin/
-/build/
+# gradle
+bin
+build
+.gradle
+
+#eclipse
+.project
+.classpath
+.settings
+.metadata
+
+#Release
+RELEASE
