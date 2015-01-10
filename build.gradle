@@ -61,6 +61,7 @@ task copyRelease(type: Copy) {
 }
 
 task release {
+	release.dependsOn build
 	release.dependsOn copyFolder
 	release.dependsOn copyDocs
 	release.dependsOn copyDocs
