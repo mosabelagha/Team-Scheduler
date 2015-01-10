@@ -26,7 +26,7 @@ A scheduling program to assign team members practice times that work best with t
    * The other files are different schedules that you can choose from, but are not necessarily the most optimal
 
 ##If you have any suggestions, please let me know!
-**Note**: *I created this to be used with the Excel file in order to make it easy to paste data into the program. I envision this program being used after a survey sent out to team players (a google doc) asks what times work best for them. The data would be stored in spreadsheet anyways, and so copy and pasting the data would make the whole process go quickly, without the person making the schedule needing to manually input data. *
+**Note**: *I created this to be used with the Excel file in order to make it easy to paste data into the program. I envision this program being used after a survey sent out to team players (a google doc) asks what times work best for them. The data would be stored in spreadsheet anyways, and so copy and pasting the data would make the whole process go quickly, without the person making the schedule needing to manually input data.*
 
 ------
 
