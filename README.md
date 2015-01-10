@@ -4,6 +4,7 @@
 A scheduling program to assign team members practice times that work best with their preferences and availability
 
 ## Directions for use
+0. In 'RELEASE' download 'Team Scheduler-1.0.zip' and unzip the file
 1. Use the **EXCEL** document (not CSV) to fill in
   * Team member names
     * As many as you need 
