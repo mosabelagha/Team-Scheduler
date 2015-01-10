@@ -67,5 +67,9 @@ in order to run the project. This will create the .jar file in 'build/libs' but 
 # Todo
 * Fix corner cases
 * Make variables more dynamic (number of players per slot, level names, number of levels, etc.)
+<<<<<<< HEAD
 * Make build.gradle better
 * [Low Priority] Have this all be self contained (no excel/source file)
+=======
+* [Low Priority] Have this all be self contained (no excel/source file)
+>>>>>>> FETCH_HEAD
