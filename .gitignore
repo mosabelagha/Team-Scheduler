@@ -3,11 +3,11 @@ bin
 build
 .gradle
 
-#eclipse
+# eclipse
 .project
 .classpath
 .settings
 .metadata
 
 #Release
-RELEASE
+/RELEASE/
