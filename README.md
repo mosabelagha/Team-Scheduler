@@ -1,18 +1,18 @@
 # Team Practice Scheduler
 ####Created by: Mosab Elagha
 ####Version 1.0
-A scheduling program to assign team members practice times that work best with their preferences and availability
+A scheduling program to assign team players practice times that work best with their preferences and availability
 
 ## Directions for use
 0. In 'RELEASE' download 'Team Scheduler-1.0.zip' and unzip the file
 1. Use the **EXCEL** document (not CSV) to fill in
-  * Team member names
+  * Player names
     * As many as you need 
   * Time slots (up to 9)
     * If a time slot is being used, fill in data for all cells
     * If a time slot is not being used, leave the *data* for it blank
       * The time slot cell itself can have writing in it
-  * Team member preferences for time slots
+  * Player preferences for time slots
     * 3 = Highly preferable
     * 2 = Preferable
     * 1 = Less preferable
