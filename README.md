@@ -3,33 +3,7 @@
 ####Version 1.0
 A scheduling program to assign team players practice times that work best with their preferences and availability
 
-## Directions for use
-0. In 'RELEASE' download 'Team Scheduler-1.0.zip' and unzip the file
-1. Use the **EXCEL** document (not CSV) to fill in
-  * Player names
-    * As many as you need 
-  * Time slots (up to 9)
-    * If a time slot is being used, fill in data for all cells
-    * If a time slot is not being used, leave the *data* for it blank
-      * The time slot cell itself can have writing in it
-  * Player preferences for time slots
-    * 3 = Highly preferable
-    * 2 = Preferable
-    * 1 = Less preferable
-    * 0 = Unavailable
-2. Export/Save As to a CSV file
-   * When modifying the player info, do it in the excel document then save as CSV again
-3. Open Scheduler.jar
-4. Click the button 'Go' when you're ready
-   * If you saved the Player Info.csv file as a different name, write '{filename}.csv' in the input box
-    * Without quotes and where {filename} is the name of your file without brackets
-5. In the 'output' folder there are multiple results
-   * Open 'Recommended.csv' to see the best results
-   * The other files are different schedules that you can choose from, but are not necessarily the most optimal
-
-##If you have any suggestions, please let me know!
-**Note**: *I created this to be used with the Excel file in order to make it easy to paste data into the program. I envision this program being used after a survey sent out to team players (a google doc) asks what times work best for them. The data would be stored in spreadsheet anyways, and so copy and pasting the data would make the whole process go quickly, without the person making the schedule needing to manually input data.*
-
+## Go [here](https://github.com/mosabelagha/Team-Scheduler/releases) to download the latest version, along with direction on how to use the program
 ------
 
 ## Building (for developers)
@@ -70,3 +44,5 @@ in order to run the project. This will create the .jar file in 'build/libs' but 
 * Make variables more dynamic (number of players per slot, level names, number of levels, etc.)
 * Make build.gradle better
 * [Low Priority] Have this all be self contained (no excel/source file)
+
+##If you have any suggestions, please let me know!
