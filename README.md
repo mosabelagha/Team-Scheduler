@@ -24,7 +24,7 @@ To build an Eclipse project, you can run the following
 
 After this, import the project to Eclipse
 
-###Exporing the completed .jar
+###Exporting the completed .jar
 #####Recommended
 I recommend using the custom command I created for this project
 
